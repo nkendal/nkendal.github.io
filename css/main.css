@@ -33,6 +33,14 @@ div {
 h1 {
 	color:#111;
 }
+.banner-main {
+    position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  padding: 30px;
+
+}
 .close {
   background: #606061;
   color: #FFFFFF;
@@ -53,6 +61,12 @@ h1 {
 }
 
 .close:hover { background: #00d9ff; }
+
+.content {
+  padding-top:150px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 .logo {
 	  margin: 0;
@@ -107,9 +121,6 @@ h1 {
 
 }
 
-#container {
-	padding: 40px;
-}
 #logo {
 	float:left;
 }
